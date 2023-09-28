@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  text-align: center;
+  color: rgb(53, 234, 234);
+  font-size: 50px;
+}
+.top {
+  background-color: rgb(228, 238, 238);
+  width: 80%;
+}
+.checkBox{
+    position: absolute;  
+    height: 25px;  
+    width: 150px;  
+    border-radius: 0%;
+    background-color: white;
+    transition: all .5s ease;
+    cursor: pointer;
+    margin-top: 50px; 
+    margin-left: 350px; 
+}
+.checkBox1{
+    position: absolute;  
+    height: 25px;  
+    width: 150px;  
+    border-radius: 0%;
+    background-color: white;
+    transition: all .5s ease;
+    cursor: pointer;
+    margin-top: 50px; 
+    margin-left: 50px; 
+}
+.img {
+  border-radius: 0px;
+  padding: 5px;
+  width: 150px;
+  display: block;
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+.element {
+  text-align: center;
+  font-family: "Gill Sans", sans-serif;
+  font-weight: bold;
+  width: 400px;
+  font-size: 40px;
+  margin-left: 4em;
+  margin-top: 1em;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.right {
+ background-color: white;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Gill Sans", sans-serif;
+}
+.right {
+  background-color: white;
+  color: rgb(61, 64, 68);
+  padding: 10px;
+  margin-left: auto;
+  width: 50vh;
+  display: grid;
+  margin-top: 0px;
+}
+
+.right p {
+  text-align-last: justify;
+  font-family: "Gill Sans", sans-serif;
+}
+.btn {
+  font-family: "Gill Sans", sans-serif;  
+  background-color: blue;
+  width: 80%;
+  font-weight: bold;
+  border: none;
+  border-radius: 35px;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  position: relative;
+  margin-left: 18px;
+  
+  
+}
